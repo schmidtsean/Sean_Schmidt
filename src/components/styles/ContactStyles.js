@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {Image} from 'semantic-ui-react';
 
 export const ContactWrap = styled.div`
   background-image: linear-gradient(to bottom, black, lightblue, grey, lightblue, black);
@@ -26,15 +27,17 @@ export const Description = styled.h1`
   padding: 1em;
   margin-bottom: 10px;
   text-align: center;
+  color: black;
+  &:hover {
+    background: white;
+    color: blue;
+  }
 `
 
-export const Description1 = styled.p`
-  font-family: arial;
-  font-size: 1.1em;
-  background: rgba(210,210,210,0.5);
-  border-radius: 10px;
-  padding: 1em;
- 
+export const Picture = styled(Image)`
+ &:hover {
+  transform: scale(1.5)
+ };
 `
 
 export const Header = styled.h1`

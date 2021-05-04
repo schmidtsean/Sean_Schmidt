@@ -1,4 +1,4 @@
-import { DescriptionWrap, Description, Header, ContactWrap } from "../styles/ContactStyles";
+import { DescriptionWrap, Description, Header, ContactWrap, Picture } from "../styles/ContactStyles";
 import {Icon, Image} from "semantic-ui-react";
 import Github from '../images/Github.png';
 import linkedin from '../images/linkedin.png';
@@ -20,10 +20,10 @@ const Contact = () => {
       <Description>
         
         <a href="https://github.com/schmidtsean">
-          <Image style={{width:'10%', height:'10%', marginRight:'10px'}} src={Github}/>
+          <Picture style={{width:'10%', height:'10%', marginRight:'10px'}} src={Github}/>
         </a>
         <a href='https://www.linkedin.com/in/seanschmidt50/'>
-        <Image style={{width:'10%', height:'10%', marginLeft:'10px'}} src={linkedin} />
+          <Picture style={{width:'10%', height:'10%', marginLeft:'10px'}} src={linkedin} />
         </a>
       </Description>
       </DescriptionWrap>
