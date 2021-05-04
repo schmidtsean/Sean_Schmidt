@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import {Header} from 'semantic-ui-react';
+import {Link} from 'react-scroll';
 
 export const Vid = styled.video`
   width: 100%;
@@ -14,7 +15,7 @@ export const Header1 = styled(Header)`
   color: white;
   border-style: hidden;
   z-index: 3;
-  padding-bottom: 0.25em;
+  padding-bottom: .25em;
 `
 
 export const Header2 = styled(Header)`
@@ -23,7 +24,7 @@ export const Header2 = styled(Header)`
   color: white;
   border-style: hidden;
   z-index: 3;
-  padding-bottom: 0.25em;
+  padding-bottom: 2em;
 `
 
 export const Homediv = styled.div`
@@ -47,6 +48,22 @@ export const HomeWrap = styled.div`
   min-height: 625px;
   position: relative;
   z-index: 1;
-  
+`
 
+export const Links = styled(Link)`
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px;
+  color: white;
+  z-index: 3;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+    transform: scale(1.1)
+  }
+`
+
+export const LinkItem = styled.li`
+  z-index: 3;
+  order: 3;
+  padding: 1em 0%;
 `
