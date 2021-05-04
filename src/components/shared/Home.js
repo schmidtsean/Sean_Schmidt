@@ -19,7 +19,7 @@ const Home = () => {
   }
 
   return (
-  <HomeWrap>
+  <HomeWrap id='home'>
     <Homediv>
       <Vid autoPlay loop src={background2} type='video/mp4'/>
     </Homediv>
