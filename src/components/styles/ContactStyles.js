@@ -42,7 +42,7 @@ export const Picture = styled(Image)`
 
 export const Header = styled.h1`
   font-family: arial;
-  font-size: 65px;
+  font-size: 50px;
   color: white;
-  margin-bottom: 45px;
+  margin-bottom: 10px;
 `
