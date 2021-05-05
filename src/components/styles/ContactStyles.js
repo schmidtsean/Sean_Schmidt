@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {Image} from 'semantic-ui-react';
 
 export const ContactWrap = styled.div`
-  background-image: linear-gradient(to bottom, black, lightblue, grey, lightblue, black);
+  background-image: linear-gradient(to bottom, lightblue, black);
   display: flex;
   justify-content: center;
   flex-direction: column;

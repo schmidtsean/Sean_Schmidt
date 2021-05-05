@@ -66,4 +66,5 @@ export const LinkItem = styled.li`
   z-index: 3;
   order: 3;
   padding: 1em 0%;
+  list-style: none;
 `

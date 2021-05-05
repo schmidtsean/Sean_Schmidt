@@ -29,6 +29,12 @@ const Home = () => {
       <Links to='about' smooth={true} duration={500} spy={true} exact='true'>About</Links>
     </LinkItem>
     <LinkItem>
+      <Links to='portfolio' smooth={true} duration={500} spy={true} exact='true'>Projects</Links>
+    </LinkItem>
+    <LinkItem>
+      <Links to='resume' smooth={true} duration={500} spy={true} exact='true'>Resume</Links>
+    </LinkItem>
+    <LinkItem>
       <Links to='contact' smooth={true} duration={500} spy={true} exact='true'>Contact</Links>
     </LinkItem>
   </HomeWrap>

@@ -13,7 +13,7 @@ padding-bottom: .25em;
 
 
 export const AboutWrap = styled.div`
-  background-image: linear-gradient(to bottom, black, lightblue, grey, lightblue, black);
+  background-image: linear-gradient(to bottom, black, lightblue);
   display: flex;
   justify-content: center;
   flex-direction: column;
