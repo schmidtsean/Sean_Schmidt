@@ -1,10 +1,9 @@
 import {useEffect, useState} from 'react';
-import { Header } from "semantic-ui-react";
 import { Header1, Header2, Vid, Homediv, HomeWrap, Links, LinkItem } from "../styles/HomeStyles";
 import background2 from '../videos/background2.mp4';
 
 const Home = () => {
-  const [scrollNav, setScrollNav] = useState(false)
+  const [ScrollNav, setScrollNav] = useState(false)
   
   useEffect(() => {
     window.addEventListener('scroll', changeNav)

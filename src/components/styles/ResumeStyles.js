@@ -25,3 +25,17 @@ height: 80%;
 border-radius: 10px;
 text-align: center;
 `
+
+export const Description = styled.h2`
+  font-family: arial;
+  background: rgba(210,210,210,0.5);
+  border-radius: 10px;
+  padding: 1em;
+  margin-bottom: 10px;
+  text-align: center;
+  color: black;
+  &:hover {
+    background: white;
+    color: blue;
+  }
+`

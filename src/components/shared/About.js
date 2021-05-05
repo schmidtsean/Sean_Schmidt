@@ -1,7 +1,6 @@
-import {Vid, Homediv} from '../styles/HomeStyles';
-import background2 from '../videos/background2.mp4';
+
 import { AboutWrap, Header3, Description, Description1, DescriptionWrap } from '../styles/AboutStyle';
-import { Grid, Image, Divider } from 'semantic-ui-react';
+import { Grid, Image } from 'semantic-ui-react';
 import Sean from '../images/Sean.jpg';
 const About = () => {
   return (

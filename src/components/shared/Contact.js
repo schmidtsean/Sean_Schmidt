@@ -1,5 +1,4 @@
 import { DescriptionWrap, Description, Header, ContactWrap, Picture } from "../styles/ContactStyles";
-import {Icon, Image} from "semantic-ui-react";
 import Github from '../images/Github.png';
 import linkedin from '../images/linkedin.png';
 const Contact = () => {
