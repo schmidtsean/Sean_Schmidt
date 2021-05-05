@@ -3,7 +3,8 @@ import { Header1, Header2, Vid, Homediv, HomeWrap, Links, LinkItem } from "../st
 import background2 from '../videos/background2.mp4';
 
 const Home = () => {
-  const [ScrollNav, setScrollNav] = useState(false)
+  // eslint-disable-next-line
+  const [scrollNav, setScrollNav] = useState(false)
   
   useEffect(() => {
     window.addEventListener('scroll', changeNav)

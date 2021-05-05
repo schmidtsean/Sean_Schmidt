@@ -14,22 +14,23 @@ position: relative;
 
 export const Header = styled.h1`
   font-family: arial;
-  font-size: 65px;
+  font-size: 60px;
   color: white;
+  margin-bottom: 10px;
  
 `
 
 export const PictureWrap = styled.div`
 order: 3;
 height: 80%;
-border-radius: 10px;
+border-radius: 5px;
 text-align: center;
 `
 
 export const Description = styled.h2`
   font-family: arial;
   background: rgba(210,210,210,0.5);
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 1em;
   margin-bottom: 10px;
   text-align: center;
