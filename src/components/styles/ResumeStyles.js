@@ -18,3 +18,10 @@ export const Header = styled.h1`
   color: white;
  
 `
+
+export const PictureWrap = styled.div`
+order: 3;
+height: 80%;
+border-radius: 10px;
+text-align: center;
+`
