@@ -17,7 +17,7 @@ export const Header = styled.h1`
   font-size: 60px;
   color: white;
   margin-bottom: 10px;
- 
+  padding-top: 3em;
 `
 
 export const PictureWrap = styled.div`

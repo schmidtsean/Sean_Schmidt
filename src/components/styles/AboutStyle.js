@@ -3,10 +3,11 @@ import styled from 'styled-components';
 
 export const Header1 = styled(Header)`
 font-family: Arial;
-font-size: 90px;
+font-size: 85px;
 color: white;
 border-style: hidden;
 z-index: 3;
+padding-top: .25em;
 padding-bottom: .25em;
 
 `
@@ -58,5 +59,6 @@ export const Header3 = styled.h1`
   font-family: arial;
   font-size: 65px;
   color: white;
+  padding-top: 1em;
  
 `

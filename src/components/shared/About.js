@@ -4,6 +4,7 @@ import { Grid, Image } from 'semantic-ui-react';
 import Sean from '../images/Sean.jpg';
 const About = () => {
   return (
+   
     <AboutWrap id='about'>
       <Header3>About Me</Header3>
       <Grid>

@@ -23,7 +23,11 @@ export const LinkItem = styled.li`
 `
 
 export const LinkWrap = styled.nav`
-background: ${({scrollNav}) => (scrollNav ? 'rgba(0,0,0,0.9);' : '#000')};
+background: repeating-linear-gradient(190deg, rgba(0, 0, 0) 40px,
+rgba(25, 181, 254, 1) 80px, rgba(37, 116, 169, 1) 120px,
+rgba(44, 62, 80, 1) 160px, rgba(44, 62, 80, 1) 200px,
+rgba(0, 0, 0) 240px, rgba(0, 0, 0) 280px,
+rgba(197, 239, 247, 1) 300px);
 height: 80px;
 margin-top: -80;
 display: flex;
