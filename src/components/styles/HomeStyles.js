@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import {Header} from 'semantic-ui-react';
-import {Link} from 'react-scroll';
 
 export const Vid = styled.video`
   width: 100%;
@@ -50,21 +49,4 @@ export const HomeWrap = styled.div`
   z-index: 1;
 `
 
-export const Links = styled(Link)`
-  font-family: 'Quicksand', sans-serif;
-  font-size: 35px;
-  color: white;
-  z-index: 3;
-  cursor: pointer;
-  &:hover {
-    text-decoration: underline;
-    transform: scale(1.1)
-  }
-`
 
-export const LinkItem = styled.li`
-  z-index: 3;
-  order: 3;
-  padding: 1em 0%;
-  list-style: none;
-`
